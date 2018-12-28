@@ -8,7 +8,8 @@
 
 ### Links and Resources
 * [repo]( https://github.com/hingham/06-event-driven-apps-hi )
-* [![Build Status](https://www.travis-ci.com/hingham/06-event-driven-apps.svg?branch=impli)](https://www.travis-ci.com/hingham/06-event-driven-apps)
+* [travis]( https://www.travis-ci.com/hingham/06-event-driven-apps )
+* [![Build Status](https://www.travis-ci.com/hingham/06-event-driven-apps.svg?branch=impli)]
 
 ### Modules
 #### event.js
