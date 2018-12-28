@@ -1,42 +1,34 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Event Driven Development
 
-### Author: Student/Group Name
+### Author: Hannah Ingham
+### Pair: Becca Lee
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo]( https://github.com/hingham/06-event-driven-apps-hi )
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### event.js
+#### read-write.js
+#### logger.js
+#### app.js
 
-###### `foo(thing) -> string`
-Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
+## Usage Notes or examples
+#### set environment: npm init
+#### intall fs
+#### enter file name in the console to be rewritten
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+EX: node app.js "path/to/file/name.txt"
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+## run app in the console with node
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* How do you run tests?: npm run test-watch
+* What assertions were made?: Asserts that console.log and console.error were called on the handler functions
+* What assertions need to be / should be made?: Should test that emits are listening correction, and that functions are sending out approriate emits
 
-#### UML
-Link to an image of the UML for your application and response to events
