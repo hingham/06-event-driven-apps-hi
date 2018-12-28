@@ -6,7 +6,7 @@ describe('a thing', () =>{
   describe('logger handlers', () =>{
     it('logs files saved when no error', () =>{
       const spy = jest.spyOn(console, 'log');
-      const isLogging = logger.fileSaved('myFile.txt');
+      logger.fileSaved('myFile.txt');
 
       expect(spy).toHaveBeenCalled();
 
@@ -14,12 +14,12 @@ describe('a thing', () =>{
     });
 
     it('logs error saved when error', () =>{
-        const spy = jest.spyOn(console, 'error');
-        const isLogging = logger.onError('myFile.txt');
+      const spy = jest.spyOn(console, 'error');
+      logger.onError('myFile.txt');
   
-        expect(spy).toHaveBeenCalled();
+      expect(spy).toHaveBeenCalled();
   
-        spy.mockRestore();
+      spy.mockRestore();
 
     });
   });
