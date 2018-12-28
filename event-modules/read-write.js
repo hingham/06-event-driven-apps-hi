@@ -16,8 +16,6 @@ function writeFunction(file, text){
     if(err) { events.emit('error', {file: file}); }
     events.emit('saved', {file: file});
   });
-
 }
-
 
 module.exports ={ readFile, writeFunction};
